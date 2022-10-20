@@ -28,11 +28,17 @@ div.card:hover{
 }
 p{
     margin-top: 8px;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+    color: #2F4F4F;
+    font-weight: bold;
 }
 @media only screen and (min-width: 500px) {
     body{
-        margin-top: 0px;
+        
         margin: 35px;
+        margin-top: 31px;
     }
 }
 @media only screen and (min-width: 750px) {
@@ -48,14 +54,17 @@ p{
     }
     body{
         justify-content: normal;
+        
+        margin-left: 55px;
     }
 }
 @media only screen and (min-width: 1500px){
     .wrapper{
         width:1000px;
-        
+        padding-left: 90px;
     }
     body{
         justify-content: center;
+        
     }
 }
