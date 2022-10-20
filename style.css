@@ -9,6 +9,9 @@ div.card{
     width:200px;
     flex-wrap:wrap;
 }
+html{
+    margin:0px;
+}
 div.card:hover{
     background-color: darkgray;
     transition-delay: 1s;
